@@ -68,7 +68,7 @@ kendrickAbout.innerHTML = `
             <h3>about kendrick</h3>
           </div>
           <video autoplay muted loop class="background-video" disablePictureInPicture>
-              <source src="../public/images/kendrickvideo.mp4" type="video/mp4">
+              <source src="/images/kendrickvideo.mp4" type="video/mp4">
               Your browser does not support the video tag.
           </video>
       </div>
@@ -235,7 +235,7 @@ GNX.innerHTML = `
   <h1>Kendrick's Latest Album</h1>
       <!--gnxtext-->
       <div class="gnxtext">
-        <img src="../public/images/gnx.png" alt="" class='gnximage'>
+        <img src="/images/gnx.png" alt="" class='gnximage'>
         <div class="gnxalbum">
           <div class="header">
             <h2>Gnx</h2> 
