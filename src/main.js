@@ -1,6 +1,5 @@
 import './index.css'
 import gsap from 'gsap';
-import "./assets/audio/kendrick-audio.mp3";
 
 let Firstpart = document.querySelector('#firstpart')
 
