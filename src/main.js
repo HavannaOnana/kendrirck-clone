@@ -133,12 +133,12 @@ gsap.from(rotateIcon,{duration:2,rotation:360,repeat:-1,ease:"linear"});
 
 const logos = document.querySelector(".logos");
 logos.innerHTML = `
-   <img src="../public/images/logos/negative one.png" alt="">
-      <img src="../public/images/logos/negative.png" alt="">
-      <img src="../public/images/logos/nike.png" alt="">
-      <img src="../public/images/logos/pharrel williams.png" alt="">
-      <img src="../public/images/logos/pllang.png" alt="">
-      <img src="../public/images/logos/t-minus.png" alt="">
+   <img src="/images/logos/negative one.png" alt="">
+      <img src="/images/logos/negative.png" alt="">
+      <img src="/images/logos/nike.png" alt="">
+      <img src="/images/logos/pharrel williams.png" alt="">
+      <img src="/images/logos/pllang.png" alt="">
+      <img src="/images/logos/t-minus.png" alt="">
 `;
 
 const clone = logos.innerHTML;
