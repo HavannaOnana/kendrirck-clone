@@ -68,7 +68,7 @@ kendrickAbout.innerHTML = `
             <h3>about kendrick</h3>
           </div>
           <video autoplay muted loop class="background-video" disablePictureInPicture>
-              <source src="/public/images/kendrickvideo.mp4" type="video/mp4">
+              <source src="../public/images/kendrickvideo.mp4" type="video/mp4">
               Your browser does not support the video tag.
           </video>
       </div>
@@ -133,12 +133,12 @@ gsap.from(rotateIcon,{duration:2,rotation:360,repeat:-1,ease:"linear"});
 
 const logos = document.querySelector(".logos");
 logos.innerHTML = `
-   <img src="/public/images/logos/negative one.png" alt="">
-      <img src="/public/images/logos/negative.png" alt="">
-      <img src="/public/images/logos/nike.png" alt="">
-      <img src="/public/images/logos/pharrel williams.png" alt="">
-      <img src="/public/images/logos/pllang.png" alt="">
-      <img src="/public/images/logos/t-minus.png" alt="">
+   <img src="../public/images/logos/negative one.png" alt="">
+      <img src="../public/images/logos/negative.png" alt="">
+      <img src="../public/images/logos/nike.png" alt="">
+      <img src="../public/images/logos/pharrel williams.png" alt="">
+      <img src="../public/images/logos/pllang.png" alt="">
+      <img src="../public/images/logos/t-minus.png" alt="">
 `;
 
 const clone = logos.innerHTML;
@@ -235,7 +235,7 @@ GNX.innerHTML = `
   <h1>Kendrick's Latest Album</h1>
       <!--gnxtext-->
       <div class="gnxtext">
-        <img src="/public/images/gnx.png" alt="" class='gnximage'>
+        <img src="../public/images/gnx.png" alt="" class='gnximage'>
         <div class="gnxalbum">
           <div class="header">
             <h2>Gnx</h2> 

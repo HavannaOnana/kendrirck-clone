@@ -15,22 +15,22 @@
 
 @font-face {
   font-family:trail ;
-  src: url("/public/fonts/Questrial-Regular.ttf");
+  src: url("../public/fonts/Questrial-Regular.ttf");
 }
 
 @font-face {
   font-family: without;
-  src: url("/public/fonts/WithoutAltSans-UltraBlack.ttf");
+  src: url("../public/fonts/WithoutAltSans-UltraBlack.ttf");
 }
 
 @font-face {
   font-family: boulder;
-  src: url("/public/fonts/Boulder-Bold.ttf");
+  src: url("../public/fonts/Boulder-Bold.ttf");
 }
 
 @font-face {
   font-family: Skill;
-  src: url("/public/fonts/Fontspring-DEMO-skillet-regular.otf");
+  src: url("../public/fonts/Fontspring-DEMO-skillet-regular.otf");
 }
 
 a {
@@ -373,7 +373,7 @@ video{
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("/public/images/artist/jay rock.png"); 
+  background-image: url("../public/images/artist/jay rock.png"); 
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -390,7 +390,7 @@ video{
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("/public/images/artist/sza.png"); 
+  background-image: url("../public/images/artist/sza.png"); 
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -405,7 +405,7 @@ video{
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("/public/images/artist/school boyq.png"); 
+  background-image: url("../public/images/artist/school boyq.png"); 
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
