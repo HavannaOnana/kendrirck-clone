@@ -147,6 +147,14 @@ h1 {
   align-items: flex-start;
 }
 
+@media (max-width : 1000px) {
+  body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
 @media (max-width: 1000px){
 
    .firstpart{
@@ -161,6 +169,7 @@ h1 {
 
    .navbar{
     width: 100vw;
+    overflow: hidden;
    }
 }
 
