@@ -288,7 +288,7 @@ let Playlist = Firstpart.querySelector(".playlist");
 //console.log(Playlist)
 
 Playlist.addEventListener("click", ()=> {
-  window.scroll({ top: 2200, behavior: "smooth" });
+  window.scroll({ top: 3500, behavior: "smooth" });
   checkGnx = true;
   gsap.to(gnxAnimation(), { ease: "power1.in" });
   console.log("playlist done")
